@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <htm
+        <head>
+            <title>Michael Giurato</title>
+            <link rel="stylesheet" type="text/css" href="styles.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+            <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+           <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+          <link rel="shortcut icon" href="images/head.png" type="image/ico" />
+        </head>
+
+        <body>
+            <div class="header">
+                  <h1><a href="index.html"><h1>Michael Giurato</a></h1>
+                  <div id="homeimage"> <img src="images/head.png"></div>
+            </div>
+     
+                <nav> 
+                    <div class="mouse">
+                    <h2><i class="fa fa-bars"></i></h2>
+                    </div>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+              <div class ="footer">
+                <h3><i class="fa fa-copyright"></i>Michael Giurato 2016</h3>
+              </div>
+
+          <script>
+              $(document).ready(function(){
+              $(".header").hide().fadeIn(4000);
+          });
+             $(document).ready(function() {
+             $("ul li a").mouseenter(function() {
+              $(this).css({
+               
+              });
+            });
+
+            $("ul li a").mouseleave(function() {
+              $(this).attr("style", "");
+            });
+
+            $(".mouse").click(function() {
+              if ($("ul").hasClass("open")) {
+                $("ul").slideUp();
+                $("ul").removeClass("open");
+              } else {
+                $("ul").slideDown();
+                $("ul").addClass("open");
+              }
+            });
+          });
+
+          </script>
+       
+        </body>
+    </html>

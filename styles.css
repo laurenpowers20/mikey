@@ -1,0 +1,141 @@
+html {
+  /* background: url("uglyparty.jpg") no-repeat center center fixed;*/
+    background-color: white;
+    background-size: cover;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+   font-family: 'Amatic SC', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+a:hover {
+  color:orange;
+}
+
+
+nav {
+  float: left;
+  width: 100%;
+  display: block; 
+  text-align: center;
+  clear: both;
+
+}
+
+
+ul {
+  text-align: 
+}
+
+
+ul li {
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px;    
+}
+
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header {
+  width: 100%; 
+  clear: both;
+}
+
+
+#homeimage {
+  text-align: center;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+.contact {
+  height: 500px;
+}
+
+.left-col, .right-col {
+  float: left;
+  padding: 15px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.left-col {
+  width: 40%;
+}
+
+.right-col {
+  width: 60%; 
+
+}
+
+.mouse {
+  display: none;
+  font-size: 15px;
+  float: left;
+  cursor: pointer;
+
+}
+
+.footer {
+  color: gray;
+}
+
+.thumbnail {
+  width: 200px;
+  margin: 10px;
+}
+
+.socialmedia {
+  float: left;
+  height: 100px;
+  text-align: center;
+  width:100%;
+  margin: 10px;
+  clear:both;
+}
+
+.contact {
+  padding: 10px;
+}
+
+ @media (max-width: 800px) {
+        .mouse {
+          font-size: 15px;
+          display: block;
+          text-align: center;
+          width:100%;
+          padding-bottom: 10px;
+        }
+
+        ul {
+          display: none;
+          width: 100%;
+          margin-left: -50px;
+        }
+
+        ul li {
+          width: 100%;
+        }
+
+        .thumbnail {
+          width: 150px;
+          margin: 4px;
+        }
+      }
+  
